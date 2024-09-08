@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rokad - Invoice Billing App</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .main-content {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .main-content h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 40px 0;
+        }
+
+        .feature {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1 1 30%;
+            text-align: center;
+        }
+
+        .feature h3 {
+            color: #4CAF50;
+        }
+
+        .cta-section {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .cta-section button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .cta-section button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Rokad - Invoice Billing App</h1>
+    <p>Effortless Invoicing and Billing for Small Businesses</p>
+</header>
+
+<div class="main-content">
+    <h2>Why Choose Rokad?</h2>
+    <div class="features">
+        <div class="feature">
+            <h3>Easy Invoicing</h3>
+            <p>Create professional invoices in just a few clicks. Customize your invoices with your business details, logo, and more.</p>
+        </div>
+        <div class="feature">
+            <h3>Track Payments</h3>
+            <p>Monitor customer payments, due dates, and get reminders for pending payments. Keep your finances organized effortlessly.</p>
+        </div>
+        <div class="feature">
+            <h3>Manage Products & Customers</h3>
+            <p>Store product details and manage customer information seamlessly in one place. It's as simple as adding, editing, or deleting records.</p>
+        </div>
+        <div class="feature">
+            <h3>Detailed Reports</h3>
+            <p>Generate detailed reports for sales, transactions, and customer histories to keep track of your business performance.</p>
+        </div>
+        <div class="feature">
+            <h3>Cloud Backup</h3>
+            <p>Your data is securely stored in the cloud, so you never have to worry about losing important business information.</p>
+        </div>
+        <div class="feature">
+            <h3>Multi-Device Support</h3>
+            <p>Access Rokad from any device, whether it's your smartphone, tablet, or computer. Manage your business on the go!</p>
+        </div>
+    </div>
+
+    <div class="cta-section">
+        <h2>Ready to Simplify Your Invoicing?</h2>
+        <button onclick="window.location.href='https://play.google.com/store/apps/details?id=com.rokadapp'">Download Now</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Rokad - Invoice Billing App | <a href="privacy-policy.html">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
